@@ -46,10 +46,12 @@ INSTALL ZPanel with the .sh INSTALLER
 
 Copy the file centos-6-2-1.00.sh in root directory execute the following commands via shell and copy paste from the. 
 Answer the questions and have a little patience
- yum update
- yum install dos2unix
- dos2unix centos-6-2-1.00.sh
- chmod +x centos-6-2-1.00.sh
- ./centos-6-2-1.00.sh
+
+
+ #root ~  yum update
+ #root ~  yum install dos2unix
+ #root ~  dos2unix centos-6-2-1.00.sh
+ #root ~  chmod +x centos-6-2-1.00.sh
+ #root ~  ./centos-6-2-1.00.sh
  
  and have a nice day
